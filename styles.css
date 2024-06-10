@@ -77,9 +77,10 @@ a {
   margin: 0;
 }
 
-.estilo-section ul li {
+/* .estilo-section ul li {
   list-style: none;
-}
+  font-size: smaller;
+} */
 
 .contact-section form {
   display: flex;
@@ -120,6 +121,7 @@ a {
   justify-content: space-around;
   margin: 20px 0;
   color: rgb(241, 242, 244);
+  
 }
 
 #nav-links li {
@@ -252,6 +254,7 @@ a {
 
   #nav-links {
       flex-direction: column;
+      padding-left: unset;
   }
 
   #nav-links li {

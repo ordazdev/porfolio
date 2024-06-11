@@ -36,6 +36,22 @@ a {
   text-decoration: none;
 }
 
+.contact-form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-info {
+  text-align: right; /* Aligns the text to the right */
+}
+
+.contact-info .email,
+.contact-info .phone {
+  display: block;
+  margin: 5px 0;
+}
+
 /* selector de tipo clase */
 
 .padre {
